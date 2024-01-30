@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[data-unified="1f5ff"],
+[data-unified="1f997"],
+[data-unified="1fab1"],
+[data-unified="1f95c"],
+[data-unified="1fa7b"],
+[data-unified="1fa79"] {
+  display: none !important;
+}
+
+
+em-emoji-picker {
+  height: 512px;
+  width: 320px;
+}
+
+@media (max-width: 768px) {
+  em-emoji-picker {
+    height: 100px;
+    min-height: 100px;
+    width: 100%;
+  }
+}
